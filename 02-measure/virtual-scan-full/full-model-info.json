@@ -1,0 +1,297 @@
+{
+ "frame": "X user-left->right, Y front->hinge, Z up (right-handed, upright, lid closed)",
+ "extents_mm": [
+  358.67,
+  235.84,
+  20.15
+ ],
+ "triangles": 299474,
+ "parts": {
+  "Ins_15_3525_Base_Cover_GP": {
+   "tris": 28319,
+   "bbox_min": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "bbox_max": [
+    355.32,
+    226.2,
+    12.2
+   ]
+  },
+  "Ins_15_3525_Palmrest_GP": {
+   "tris": 37203,
+   "bbox_min": [
+    -1.6,
+    -2.05,
+    4.64
+   ],
+   "bbox_max": [
+    357.07,
+    227.54,
+    14.21
+   ]
+  },
+  "Ins_15_3525_Display_Assembly_GP": {
+   "tris": 48268,
+   "bbox_min": [
+    -1.6,
+    -3.95,
+    3.05
+   ],
+   "bbox_max": [
+    356.9,
+    231.89,
+    20.15
+   ]
+  },
+  "Inspiron_3525_Display_Right_Hinges": {
+   "tris": 8140,
+   "bbox_min": [
+    3.76,
+    180.08,
+    4.45
+   ],
+   "bbox_max": [
+    54.41,
+    228.78,
+    19.7
+   ]
+  },
+  "Inspiron_3525_Display_Left_Hinges": {
+   "tris": 3889,
+   "bbox_min": [
+    294.96,
+    190.08,
+    4.45
+   ],
+   "bbox_max": [
+    351.56,
+    228.78,
+    19.7
+   ]
+  },
+  "Ins_15_3525_Systemboard_GP": {
+   "tris": 18832,
+   "bbox_min": [
+    -0.57,
+    109.15,
+    2.52
+   ],
+   "bbox_max": [
+    221.27,
+    219.65,
+    12.59
+   ]
+  },
+  "Ins_15_3525_Battery_3cell_GP": {
+   "tris": 4271,
+   "bbox_min": [
+    15.24,
+    15.29,
+    3.9
+   ],
+   "bbox_max": [
+    228.63,
+    120.21,
+    10.33
+   ]
+  },
+  "Ins_15_3525__Battery_Cable_GP": {
+   "tris": 1212,
+   "bbox_min": [
+    83.9,
+    18.72,
+    5.6
+   ],
+   "bbox_max": [
+    117.21,
+    120.21,
+    8.1
+   ]
+  },
+  "Ins_15_3525_Heatsnk_UMA_GP": {
+   "tris": 3825,
+   "bbox_min": [
+    86.29,
+    168.2,
+    2.62
+   ],
+   "bbox_max": [
+    286.52,
+    224.15,
+    9.75
+   ]
+  },
+  "Ins_15_3525_Fan_GP": {
+   "tris": 2790,
+   "bbox_min": [
+    207.27,
+    138.3,
+    4.45
+   ],
+   "bbox_max": [
+    285.99,
+    206.35,
+    10.25
+   ]
+  },
+  "Ins_15_3525_Speaker_GP": {
+   "tris": 60069,
+   "bbox_min": [
+    3.16,
+    1.07,
+    4.25
+   ],
+   "bbox_max": [
+    351.96,
+    114.77,
+    12.2
+   ]
+  },
+  "Ins_15_3525_SSD_GP": {
+   "tris": 20336,
+   "bbox_min": [
+    215.47,
+    109.17,
+    3.75
+   ],
+   "bbox_max": [
+    298.78,
+    141.77,
+    9.25
+   ]
+  },
+  "Ins_15_3525_WLAN_GP": {
+   "tris": 1676,
+   "bbox_min": [
+    178.2,
+    131.3,
+    3.88
+   ],
+   "bbox_max": [
+    200.5,
+    163.8,
+    8.28
+   ]
+  },
+  "Ins_15_3525_Memory_Module_GP": {
+   "tris": 948,
+   "bbox_min": [
+    28.17,
+    138.15,
+    4.41
+   ],
+   "bbox_max": [
+    174.37,
+    168.16,
+    7.49
+   ]
+  },
+  "Ins_15_3525_IO_Board_GP": {
+   "tris": 4604,
+   "bbox_min": [
+    322.78,
+    134.15,
+    5.2
+   ],
+   "bbox_max": [
+    355.43,
+    224.05,
+    11.95
+   ]
+  },
+  "Ins_15_3525_Power_Adapter_Port_GP": {
+   "tris": 4556,
+   "bbox_min": [
+    0.31,
+    200.55,
+    5.83
+   ],
+   "bbox_max": [
+    75.74,
+    222.88,
+    12.56
+   ]
+  },
+  "Ins_15_3525_PowerButtonfbx_GP": {
+   "tris": 5806,
+   "bbox_min": [
+    308.91,
+    139.53,
+    7.86
+   ],
+   "bbox_max": [
+    343.49,
+    205.72,
+    14.53
+   ]
+  },
+  "Ins_15_3525_Touchpad_GP": {
+   "tris": 16042,
+   "bbox_min": [
+    78.18,
+    4.28,
+    9.2
+   ],
+   "bbox_max": [
+    208.28,
+    95.68,
+    13.3
+   ]
+  },
+  "Inspiron_3525_Display_Cable": {
+   "tris": 6492,
+   "bbox_min": [
+    58.2,
+    200.43,
+    4.17
+   ],
+   "bbox_max": [
+    108.33,
+    227.51,
+    10.67
+   ]
+  },
+  "Inspiron_3525_Display_WLAN_Cable": {
+   "tris": 13284,
+   "bbox_min": [
+    184.97,
+    101.29,
+    7.35
+   ],
+   "bbox_max": [
+    308.19,
+    223.84,
+    8.65
+   ]
+  },
+  "Inspiron_3525_Basecover_Remove_Screws": {
+   "tris": 7606,
+   "bbox_min": [
+    7.26,
+    6.48,
+    2.7
+   ],
+   "bbox_max": [
+    348.06,
+    216.13,
+    12.2
+   ]
+  },
+  "Inspiron_3525_Basecover_Loosen_Screws": {
+   "tris": 1306,
+   "bbox_min": [
+    18.66,
+    212.63,
+    2.95
+   ],
+   "bbox_max": [
+    336.65,
+    216.13,
+    11.75
+   ]
+  }
+ }
+}

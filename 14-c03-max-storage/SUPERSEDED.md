@@ -1,0 +1,1 @@
+This preliminary 07-derived optimization was stopped before completion after the v11 source requirement was clarified. It is superseded by `../15-v11-flat-internal/candidate/` and must not be ordered.

@@ -1,0 +1,378 @@
+{
+ "body": "base_cover_research_226p2mm_v9_body.stl",
+ "print_frame": false,
+ "handedness": {
+  "gltf_to_parts_det": 1.0,
+  "dell_to_cad_det": -1.0,
+  "print_frame_det(design->print, x->W-x)": -1.0
+ },
+ "scale": {
+  "display_assembly_bbox_mm": [
+   358.5,
+   235.84,
+   17.1
+  ],
+  "dell_spec_WxD_mm": [
+   358.5,
+   235.56
+  ],
+  "palmrest_bbox_mm": [
+   358.67,
+   229.59,
+   9.57
+  ],
+  "oem_cover_bbox_mm": [
+   355.32,
+   226.2,
+   21.31
+  ],
+  "user_ruler_cover_mm": [
+   355,
+   227
+  ],
+  "ours_bbox_mm": [
+   355.32,
+   226.2,
+   27.25
+  ]
+ },
+ "outline": {
+  "left edge (X min)": {
+   "span": [
+    12,
+    214
+   ],
+   "oem_median": 0.01,
+   "ours_median": 0.01,
+   "dev_median": 0.0,
+   "dev_min": -3.0,
+   "dev_max": 0.25
+  },
+  "right edge (X max)": {
+   "span": [
+    12,
+    214
+   ],
+   "oem_median": 355.26,
+   "ours_median": 355.26,
+   "dev_median": 0.0,
+   "dev_min": -3.0,
+   "dev_max": 0.0
+  },
+  "rear edge (Y min)": {
+   "span": [
+    70,
+    285
+   ],
+   "oem_median": 0.02,
+   "ours_median": 0.02,
+   "dev_median": 0.0,
+   "dev_min": -0.0,
+   "dev_max": -0.0
+  },
+  "front edge (Y max)": {
+   "span": [
+    12,
+    343
+   ],
+   "oem_median": 226.02,
+   "ours_median": 226.02,
+   "dev_median": 0.0,
+   "dev_min": 0.0,
+   "dev_max": 0.0
+  },
+  "area_ours_only_mm2": 60.4,
+  "area_oem_only_mm2": 1491.9,
+  "area_oem_mm2": 79552.0,
+  "corner_diag_inset": {
+   "rear-left": {
+    "oem": 0.25,
+    "ours": 2.38
+   },
+   "rear-right": {
+    "oem": 0.0,
+    "ours": 2.5
+   },
+   "front-left": {
+    "oem": 2.75,
+    "ours": 2.62
+   },
+   "front-right": {
+    "oem": 2.75,
+    "ours": 2.62
+   }
+  },
+  "hinge_notches_[x0,x1,depthY]": {
+   "oem": [
+    [
+     29.01,
+     63.76,
+     11.77
+    ],
+    [
+     291.51,
+     326.26,
+     11.77
+    ]
+   ],
+   "ours": [
+    [
+     29.01,
+     63.76,
+     11.02
+    ],
+    [
+     291.51,
+     326.26,
+     11.02
+    ]
+   ]
+  }
+ },
+ "screws": [
+  {
+   "screw": "rear-L",
+   "oem_screw_axis": [
+    20.41,
+    11.82
+   ],
+   "oem_cover_hole": {
+    "cx": 20.41,
+    "cy": 11.82,
+    "size_x": 2.3,
+    "size_y": 2.3,
+    "eq_d": 2.29
+   },
+   "our_hole": {
+    "cx": 20.41,
+    "cy": 11.83,
+    "size_x": 4.05,
+    "size_y": 2.8,
+    "eq_d": 3.5
+   },
+   "palmrest_boss": {
+    "cx": 20.41,
+    "cy": 11.5,
+    "eq_d": 4.77
+   },
+   "our_vs_axis_mm": 0.01,
+   "our_vs_boss_mm": 0.33
+  },
+  {
+   "screw": "rear-C",
+   "oem_screw_axis": [
+    177.66,
+    11.82
+   ],
+   "oem_cover_hole": {
+    "cx": 177.66,
+    "cy": 11.82,
+    "size_x": 2.3,
+    "size_y": 2.3,
+    "eq_d": 2.29
+   },
+   "our_hole": {
+    "cx": 177.66,
+    "cy": 11.83,
+    "size_x": 2.8,
+    "size_y": 2.8,
+    "eq_d": 2.79
+   },
+   "palmrest_boss": {
+    "cx": 177.66,
+    "cy": 11.5,
+    "eq_d": 4.77
+   },
+   "our_vs_axis_mm": 0.01,
+   "our_vs_boss_mm": 0.33
+  },
+  {
+   "screw": "rear-R",
+   "oem_screw_axis": [
+    334.91,
+    11.82
+   ],
+   "oem_cover_hole": {
+    "cx": 334.91,
+    "cy": 11.82,
+    "size_x": 2.3,
+    "size_y": 2.3,
+    "eq_d": 2.29
+   },
+   "our_hole": {
+    "cx": 334.91,
+    "cy": 11.83,
+    "size_x": 4.05,
+    "size_y": 2.8,
+    "eq_d": 3.5
+   },
+   "palmrest_boss": {
+    "cx": 334.91,
+    "cy": 11.5,
+    "eq_d": 4.78
+   },
+   "our_vs_axis_mm": 0.01,
+   "our_vs_boss_mm": 0.33
+  },
+  {
+   "screw": "mid-L",
+   "oem_screw_axis": [
+    9.01,
+    119.62
+   ],
+   "oem_cover_hole": {
+    "cx": 9.0,
+    "cy": 119.62,
+    "size_x": 2.3,
+    "size_y": 2.3,
+    "eq_d": 2.29
+   },
+   "our_hole": {
+    "cx": 9.01,
+    "cy": 119.63,
+    "size_x": 4.15,
+    "size_y": 2.8,
+    "eq_d": 3.55
+   },
+   "palmrest_boss": null,
+   "our_vs_axis_mm": 0.01
+  },
+  {
+   "screw": "mid-R",
+   "oem_screw_axis": [
+    346.31,
+    119.62
+   ],
+   "oem_cover_hole": {
+    "cx": 346.31,
+    "cy": 119.62,
+    "size_x": 2.3,
+    "size_y": 2.3,
+    "eq_d": 2.29
+   },
+   "our_hole": {
+    "cx": 346.31,
+    "cy": 119.63,
+    "size_x": 4.15,
+    "size_y": 2.8,
+    "eq_d": 3.55
+   },
+   "palmrest_boss": null,
+   "our_vs_axis_mm": 0.01
+  },
+  {
+   "screw": "front-L",
+   "oem_screw_axis": [
+    9.01,
+    217.13
+   ],
+   "oem_cover_hole": {
+    "cx": 9.01,
+    "cy": 217.25,
+    "size_x": 2.3,
+    "size_y": 2.25,
+    "eq_d": 2.26
+   },
+   "our_hole": {
+    "cx": 9.01,
+    "cy": 217.14,
+    "size_x": 4.15,
+    "size_y": 2.8,
+    "eq_d": 3.55
+   },
+   "palmrest_boss": {
+    "cx": 9.01,
+    "cy": 216.69,
+    "eq_d": 4.71
+   },
+   "our_vs_axis_mm": 0.01,
+   "our_vs_boss_mm": 0.45
+  },
+  {
+   "screw": "front-C",
+   "oem_screw_axis": [
+    177.66,
+    217.97
+   ],
+   "oem_cover_hole": {
+    "cx": 177.66,
+    "cy": 217.97,
+    "size_x": 2.3,
+    "size_y": 2.3,
+    "eq_d": 2.29
+   },
+   "our_hole": {
+    "cx": 177.66,
+    "cy": 217.98,
+    "size_x": 2.8,
+    "size_y": 2.8,
+    "eq_d": 2.79
+   },
+   "palmrest_boss": {
+    "cx": 177.66,
+    "cy": 217.65,
+    "eq_d": 4.77
+   },
+   "our_vs_axis_mm": 0.01,
+   "our_vs_boss_mm": 0.33
+  },
+  {
+   "screw": "front-R",
+   "oem_screw_axis": [
+    346.31,
+    217.13
+   ],
+   "oem_cover_hole": {
+    "cx": 346.31,
+    "cy": 217.25,
+    "size_x": 2.3,
+    "size_y": 2.25,
+    "eq_d": 2.26
+   },
+   "our_hole": {
+    "cx": 346.31,
+    "cy": 217.14,
+    "size_x": 4.15,
+    "size_y": 2.8,
+    "eq_d": 3.55
+   },
+   "palmrest_boss": {
+    "cx": 346.31,
+    "cy": 216.69,
+    "eq_d": 4.71
+   },
+   "our_vs_axis_mm": 0.01,
+   "our_vs_boss_mm": 0.45
+  }
+ ],
+ "rim": {
+  "rear": {
+   "n": 284,
+   "median_ours_minus_oem": -0.2,
+   "within_-0.5..+0.1": 0.863,
+   "higher_than_oem_(>+0.1)": 23,
+   "lower_by_>1mm": 0
+  },
+  "front": {
+   "n": 354,
+   "median_ours_minus_oem": -0.4,
+   "within_-0.5..+0.1": 0.932,
+   "higher_than_oem_(>+0.1)": 22,
+   "lower_by_>1mm": 0
+  },
+  "left": {
+   "n": 225,
+   "median_ours_minus_oem": -0.25,
+   "within_-0.5..+0.1": 0.849,
+   "higher_than_oem_(>+0.1)": 8,
+   "lower_by_>1mm": 24
+  },
+  "right": {
+   "n": 225,
+   "median_ours_minus_oem": -0.21,
+   "within_-0.5..+0.1": 0.818,
+   "higher_than_oem_(>+0.1)": 17,
+   "lower_by_>1mm": 22
+  }
+ }
+}

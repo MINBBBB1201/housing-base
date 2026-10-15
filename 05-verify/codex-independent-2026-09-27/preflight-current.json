@@ -1,0 +1,144 @@
+{
+  "created_utc": "2026-09-26T19:04:44.064853+00:00",
+  "scope": "independent mesh/version and optimistic v4 module-height screen; no live fit or thermal qualification",
+  "meshes": {
+    "print_body": {
+      "path": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\04-cad\\dell3525_basecover_v10_1_PRINT_body.stl",
+      "sha256": "76e10c3a33711c6b5403d9622b9dc27796eb3a9fb8c9e5ed6479634a6c4fa4b7",
+      "modified_utc": "2026-09-26T18:12:05.999657+00:00",
+      "triangles": 12868,
+      "watertight": false,
+      "winding_consistent": true,
+      "bbox_mm": [
+        355.32,
+        226.2,
+        27.248
+      ],
+      "volume_cm3": 238.572
+    },
+    "print_lid": {
+      "path": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\04-cad\\dell3525_basecover_v10_1_PRINT_lid.stl",
+      "sha256": "48f1978a6303ccf10e074c872f02fd7f38d99152fab91c938e2e221dbc01c9c3",
+      "modified_utc": "2026-09-26T18:07:52.003801+00:00",
+      "triangles": 3340,
+      "watertight": false,
+      "winding_consistent": true,
+      "bbox_mm": [
+        337.2,
+        122.3,
+        10.0
+      ],
+      "volume_cm3": 77.235
+    },
+    "design_body": {
+      "path": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\04-cad\\base_cover_research_226p2mm_v10_1_body.stl",
+      "sha256": "38cad13d53992871e7b4a644a15b5e9f76ff856132dc16ed235758bd7edb617f",
+      "modified_utc": "2026-09-26T18:11:51.185961+00:00",
+      "triangles": 12868,
+      "watertight": false,
+      "winding_consistent": true,
+      "bbox_mm": [
+        355.32,
+        226.2,
+        27.248
+      ],
+      "volume_cm3": 238.572
+    },
+    "design_lid": {
+      "path": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\04-cad\\base_cover_research_226p2mm_v10_1_lid.stl",
+      "sha256": "1ade4e6622002a6811ea5e7d6eec15f414898b9a12d78d8d0c50b445241731bb",
+      "modified_utc": "2026-09-26T18:07:48.871403+00:00",
+      "triangles": 3332,
+      "watertight": false,
+      "winding_consistent": true,
+      "bbox_mm": [
+        337.2,
+        122.3,
+        10.0
+      ],
+      "volume_cm3": 77.235
+    }
+  },
+  "reflection": {
+    "body": {
+      "design_to_print_max_mm": 0.001,
+      "print_to_design_max_mm": 0.001,
+      "p99_mm": 0.0005,
+      "same_handedness_only_after_reflection": true
+    },
+    "lid": {
+      "design_to_print_max_mm": 0.0005,
+      "print_to_design_max_mm": 0.0005,
+      "p99_mm": 0.0005,
+      "same_handedness_only_after_reflection": true
+    }
+  },
+  "source_changed_during_run": false,
+  "final_order_package": {
+    "body": {
+      "expected_path": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\06-order\\FINAL-ORDER-v10_1\\dell3525_basecover_v10_1_PRINT_body.stl",
+      "present": true,
+      "same_sha256_as_current_print": false,
+      "geometry": {
+        "same_triangle_count": true,
+        "max_bidirectional_vertex_error_mm": 1.7e-05,
+        "max_bidirectional_triangle_error_mm": 1.7e-05,
+        "equivalent_mesh_within_0p01mm": true
+      }
+    },
+    "lid": {
+      "expected_path": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\06-order\\FINAL-ORDER-v10_1\\dell3525_basecover_v10_1_PRINT_lid.stl",
+      "present": true,
+      "same_sha256_as_current_print": false,
+      "geometry": {
+        "same_triangle_count": true,
+        "max_bidirectional_vertex_error_mm": 1.5e-05,
+        "max_bidirectional_triangle_error_mm": 1.5e-05,
+        "equivalent_mesh_within_0p01mm": true
+      }
+    }
+  },
+  "prior_results_freshness": {
+    "mesh_check": {
+      "path": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\05-verify\\v10_1-check-results.json",
+      "exists": true,
+      "newer_than_both_print_meshes": true,
+      "input_frame": "design/research",
+      "triangle_counts_match_current_inputs": true
+    },
+    "dim_check": {
+      "path": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\05-verify\\final-sim\\dim-check-v10_1_PRINT-print.json",
+      "exists": true,
+      "newer_than_both_print_meshes": true
+    },
+    "interference": {
+      "path": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\05-verify\\final-sim\\sim-v10_1-print.json",
+      "exists": true,
+      "newer_than_both_print_meshes": true
+    },
+    "v10_dfm": {
+      "path": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\05-verify\\final-sim\\dfm-check-v10.json",
+      "exists": true,
+      "newer_than_both_print_meshes": true,
+      "triangle_counts_match_current": true
+    }
+  },
+  "manufacturer_tolerance_context": {
+    "source": "https://jlc3dp.com/help/article/pa12-hp-nylon",
+    "quoted_general_tolerance_above_100mm_percent": 0.4,
+    "full_355p32mm_span_tolerance_mm": 1.421,
+    "note": "general quote, not a guarantee of local screw/clip relative position or warpage"
+  },
+  "v4_box_height_screen": {
+    "scope": "individual cased boxes at ideal rear y=0; no connectors, mounts, cables or simultaneous packing",
+    "waveshare_1x4_splitter_margin_mm": -5.252,
+    "waveshare_usb3_capture_margin_mm": -1.533,
+    "status": "both fail even the optimistic housing inner-height bound"
+  },
+  "oem_fastener_reference": {
+    "source": "https://www.dell.com/support/manuals/en-np/inspiron-15-3525-laptop/inspiron15_3525_sm/screw-list?guid=guid-cc648b28-fbf9-4a6f-bb11-4c6c2fa3d08a&lang=en-us",
+    "removable_M2x5": 6,
+    "captive_screws": 2,
+    "note": "v10 M2x8/M2x6 substitution and captive retention are unvalidated by this source"
+  }
+}

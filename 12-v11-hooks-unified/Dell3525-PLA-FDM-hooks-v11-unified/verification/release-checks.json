@@ -1,0 +1,228 @@
+{
+  "revision": "11 PLA tangential flex hooks",
+  "mesh": {
+    "PLA_body.stl": {
+      "sha256": "e9f202d3e6460e93c0dc3c8ab6b721fdaf1dbf7129ba7fd5637d8888005863f2",
+      "triangles": 14164,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "bounds_mm": [
+        [
+          3.0517577442878974e-07,
+          0.0,
+          -24.600000381469727
+        ],
+        [
+          355.32000732421875,
+          226.1999969482422,
+          27.247905731201172
+        ]
+      ],
+      "volume_mm3": 263748.1455756249
+    },
+    "PLA_lid.stl": {
+      "sha256": "73edc4bce77d82cbe389c62419a436765c45b8be6ff5c0403b18d260a4f8e014",
+      "triangles": 3968,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "bounds_mm": [
+        [
+          10.26,
+          44.6,
+          -14.0
+        ],
+        [
+          345.06,
+          160.6,
+          5.0
+        ]
+      ],
+      "volume_mm3": 78159.49866695999
+    },
+    "PLA_floor.stl": {
+      "sha256": "30236b6f68d9640b919613be1d7f4ea83da63abc645103b449e01f027a6cdf84",
+      "triangles": 3940,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -5.0
+        ],
+        [
+          210.0,
+          181.0,
+          7.5
+        ]
+      ],
+      "volume_mm3": 95845.6938175325
+    }
+  },
+  "change_locality": {
+    "method": "Bidirectional vertex and face-centroid nearest-surface distances outside hook boxes expanded 2 mm XY/down, 0.1 mm up. Finite sampled comparison, not a full Hausdorff or exact-volume proof. Coplanar float32 mesh subtraction gave unstable slivers and is not used as evidence.",
+    "directions": [
+      {
+        "target": "PLA_body.stl",
+        "samples": 18584,
+        "max_distance_mm": 0.0006031913009242641,
+        "acceptance_mm": 0.01
+      },
+      {
+        "target": "PLA_body_v10.stl",
+        "samples": 18694,
+        "max_distance_mm": 0.0005996157804754813,
+        "acceptance_mm": 0.01
+      }
+    ]
+  },
+  "spring_screen": [
+    {
+      "id": 1,
+      "side": 0,
+      "position_mm": 19.7,
+      "arm_length_mm": 13.2,
+      "beam_t_mm": 1.8,
+      "beam_h_mm": 1.8,
+      "root_fillet_mm": 0.9,
+      "catch_mm": 0.35,
+      "nominal_beam_strain_at_0p5mm_percent": 0.8923259964306963
+    },
+    {
+      "id": 2,
+      "side": 0,
+      "position_mm": 71,
+      "arm_length_mm": 18,
+      "beam_t_mm": 1.8,
+      "beam_h_mm": 1.8,
+      "root_fillet_mm": 0.9,
+      "catch_mm": 0.35,
+      "nominal_beam_strain_at_0p5mm_percent": 0.46168051708217916
+    },
+    {
+      "id": 3,
+      "side": 0,
+      "position_mm": 104.4,
+      "arm_length_mm": 18,
+      "beam_t_mm": 1.8,
+      "beam_h_mm": 1.8,
+      "root_fillet_mm": 0.9,
+      "catch_mm": 0.35,
+      "nominal_beam_strain_at_0p5mm_percent": 0.46168051708217916
+    },
+    {
+      "id": 4,
+      "side": 0,
+      "position_mm": 141.4,
+      "arm_length_mm": 18,
+      "beam_t_mm": 1.8,
+      "beam_h_mm": 1.8,
+      "root_fillet_mm": 0.9,
+      "catch_mm": 0.35,
+      "nominal_beam_strain_at_0p5mm_percent": 0.46168051708217916
+    },
+    {
+      "id": 5,
+      "side": 0,
+      "position_mm": 203.4,
+      "arm_length_mm": 18,
+      "beam_t_mm": 1.8,
+      "beam_h_mm": 1.8,
+      "root_fillet_mm": 0.9,
+      "catch_mm": 0.35,
+      "nominal_beam_strain_at_0p5mm_percent": 0.46168051708217916
+    },
+    {
+      "id": 6,
+      "side": 1,
+      "position_mm": 50.3,
+      "arm_length_mm": 18,
+      "beam_t_mm": 1.8,
+      "beam_h_mm": 1.8,
+      "root_fillet_mm": 0.9,
+      "catch_mm": 0.35,
+      "nominal_beam_strain_at_0p5mm_percent": 0.46168051708217916
+    },
+    {
+      "id": 7,
+      "side": 1,
+      "position_mm": 160.9,
+      "arm_length_mm": 18,
+      "beam_t_mm": 1.8,
+      "beam_h_mm": 1.8,
+      "root_fillet_mm": 0.9,
+      "catch_mm": 0.35,
+      "nominal_beam_strain_at_0p5mm_percent": 0.46168051708217916
+    },
+    {
+      "id": 8,
+      "side": 1,
+      "position_mm": 221.7,
+      "arm_length_mm": 18,
+      "beam_t_mm": 1.8,
+      "beam_h_mm": 1.8,
+      "root_fillet_mm": 0.9,
+      "catch_mm": 0.35,
+      "nominal_beam_strain_at_0p5mm_percent": 0.46168051708217916
+    },
+    {
+      "id": 9,
+      "side": 3,
+      "position_mm": 71.6,
+      "arm_length_mm": 18,
+      "beam_t_mm": 1.8,
+      "beam_h_mm": 1.8,
+      "root_fillet_mm": 0.9,
+      "catch_mm": 0.35,
+      "nominal_beam_strain_at_0p5mm_percent": 0.46168051708217916
+    },
+    {
+      "id": 10,
+      "side": 3,
+      "position_mm": 97.4,
+      "arm_length_mm": 18,
+      "beam_t_mm": 1.8,
+      "beam_h_mm": 1.8,
+      "root_fillet_mm": 0.9,
+      "catch_mm": 0.35,
+      "nominal_beam_strain_at_0p5mm_percent": 0.46168051708217916
+    },
+    {
+      "id": 11,
+      "side": 3,
+      "position_mm": 136.8,
+      "arm_length_mm": 18,
+      "beam_t_mm": 1.8,
+      "beam_h_mm": 1.8,
+      "root_fillet_mm": 0.9,
+      "catch_mm": 0.35,
+      "nominal_beam_strain_at_0p5mm_percent": 0.46168051708217916
+    },
+    {
+      "id": 12,
+      "side": 3,
+      "position_mm": 184.6,
+      "arm_length_mm": 18,
+      "beam_t_mm": 1.8,
+      "beam_h_mm": 1.8,
+      "root_fillet_mm": 0.9,
+      "catch_mm": 0.35,
+      "nominal_beam_strain_at_0p5mm_percent": 0.46168051708217916
+    },
+    {
+      "id": 13,
+      "side": 2,
+      "position_mm": 136.3,
+      "arm_length_mm": 18,
+      "beam_t_mm": 1.8,
+      "beam_h_mm": 1.8,
+      "root_fillet_mm": 0.9,
+      "catch_mm": 0.35,
+      "nominal_beam_strain_at_0p5mm_percent": 0.46168051708217916
+    }
+  ],
+  "spring_screen_limit": "Ideal uniform cantilever comparison only; not FEA or permissible PLA strain. Excludes torsion, anisotropy, stress concentrations, creep, and actual fit tolerance."
+}

@@ -1,0 +1,125 @@
+{
+  "scope": "mesh topology, sampled vertical rays, body∩lid boolean; no OEM fit, airflow, thermal or strength",
+  "topology": {
+    "body": {
+      "triangles": 12764,
+      "connected_components": 1,
+      "nonmanifold_or_open_edges": 0,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        355.32,
+        226.2,
+        27.25
+      ]
+    },
+    "lid": {
+      "triangles": 3332,
+      "connected_components": 1,
+      "nonmanifold_or_open_edges": 0,
+      "bounds_min_mm": [
+        9.06,
+        7.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        346.26,
+        129.3,
+        10.0
+      ]
+    }
+  },
+  "rays": {
+    "cavity_centre": {
+      "x": 150.0,
+      "y": 100.0,
+      "body_z": [
+        10.97,
+        12.97
+      ],
+      "lid_z": [
+        3.0,
+        5.0
+      ]
+    },
+    "fan_duct_slot": {
+      "x": 251.5,
+      "y": 38.0,
+      "body_z": [],
+      "lid_z": []
+    },
+    "edp_passthrough": {
+      "x": 86.0,
+      "y": 21.0,
+      "body_z": [],
+      "lid_z": [
+        3.0,
+        5.0
+      ]
+    },
+    "rear_left_screw_well": {
+      "x": 20.41,
+      "y": 11.83,
+      "body_z": [],
+      "lid_z": []
+    },
+    "lid_boss_insert": {
+      "x": 57.66,
+      "y": 21.6,
+      "body_z": [
+        9.99,
+        18.81
+      ],
+      "lid_z": []
+    },
+    "front_solid_region": {
+      "x": 150.0,
+      "y": 160.0,
+      "body_z": [
+        3.0,
+        5.0,
+        6.51,
+        8.51
+      ],
+      "lid_z": []
+    },
+    "mid_left_screw_slot_end": {
+      "x": 9.61,
+      "y": 119.63,
+      "body_z": [],
+      "lid_z": []
+    },
+    "left_snap_bump_in_window": {
+      "x": 9.5,
+      "y": 40.1,
+      "body_z": [
+        3.0,
+        6.9,
+        10.2,
+        18.63
+      ],
+      "lid_z": [
+        7.66,
+        9.13
+      ]
+    },
+    "rear_snap_arm": {
+      "x": 107.66,
+      "y": 8.5,
+      "body_z": [
+        17.78,
+        19.78
+      ],
+      "lid_z": [
+        3.0,
+        10.0
+      ]
+    }
+  },
+  "body_lid_intersection_empty": true,
+  "geometric_screen_pass": true,
+  "qualification": "NOT an order approval: OEM mating Z, clip catch, electronics packaging and thermal remain unverified"
+}

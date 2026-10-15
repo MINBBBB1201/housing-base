@@ -1,0 +1,136 @@
+[
+ {
+  "wall": "rear",
+  "pos": 19.7,
+  "grade": "B",
+  "hits": {
+   "Palmrest_GP": {
+    "n": 114,
+    "max_depth": 0.35,
+    "oem_n": 0,
+    "oem_max_depth": 0.0
+   }
+  }
+ },
+ {
+  "wall": "rear",
+  "pos": 71.0,
+  "grade": "B",
+  "hits": {
+   "Palmrest_GP": {
+    "n": 131,
+    "max_depth": 0.34,
+    "oem_n": 0,
+    "oem_max_depth": 0.0
+   }
+  }
+ },
+ {
+  "wall": "rear",
+  "pos": 104.4,
+  "grade": "B",
+  "hits": {
+   "Palmrest_GP": {
+    "n": 134,
+    "max_depth": 0.35,
+    "oem_n": 0,
+    "oem_max_depth": 0.0
+   }
+  }
+ },
+ {
+  "wall": "rear",
+  "pos": 141.4,
+  "grade": "B",
+  "hits": {
+   "Palmrest_GP": {
+    "n": 120,
+    "max_depth": 0.35,
+    "oem_n": 0,
+    "oem_max_depth": 0.0
+   }
+  }
+ },
+ {
+  "wall": "rear",
+  "pos": 203.4,
+  "grade": "B",
+  "hits": {
+   "Palmrest_GP": {
+    "n": 112,
+    "max_depth": 0.35,
+    "oem_n": 0,
+    "oem_max_depth": 0.0
+   }
+  }
+ },
+ {
+  "wall": "front",
+  "pos": 50.3,
+  "grade": "B",
+  "hits": {
+   "Palmrest_GP": {
+    "n": 153,
+    "max_depth": 1.4,
+    "oem_n": 0,
+    "oem_max_depth": 0.0
+   }
+  }
+ },
+ {
+  "wall": "front",
+  "pos": 160.9,
+  "grade": "B",
+  "hits": {
+   "Palmrest_GP": {
+    "n": 146,
+    "max_depth": 1.4,
+    "oem_n": 0,
+    "oem_max_depth": 0.0
+   }
+  }
+ },
+ {
+  "wall": "front",
+  "pos": 221.7,
+  "grade": "B",
+  "hits": {
+   "Palmrest_GP": {
+    "n": 164,
+    "max_depth": 1.4,
+    "oem_n": 0,
+    "oem_max_depth": 0.0
+   }
+  }
+ },
+ {
+  "wall": "right",
+  "pos": 71.6,
+  "grade": "A",
+  "hits": {}
+ },
+ {
+  "wall": "right",
+  "pos": 97.4,
+  "grade": "A",
+  "hits": {}
+ },
+ {
+  "wall": "right",
+  "pos": 136.8,
+  "grade": "A",
+  "hits": {}
+ },
+ {
+  "wall": "right",
+  "pos": 184.6,
+  "grade": "A",
+  "hits": {}
+ },
+ {
+  "wall": "left",
+  "pos": 136.3,
+  "grade": "C",
+  "hits": {}
+ }
+]

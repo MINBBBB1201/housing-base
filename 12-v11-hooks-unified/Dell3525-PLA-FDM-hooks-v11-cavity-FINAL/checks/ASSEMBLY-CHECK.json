@@ -1,0 +1,10 @@
+{
+  "nominal_body_lid_overlap_mm3": 0.0,
+  "nominal_body_floor_overlap_mm3": 0.0,
+  "floor_assembly_translation_mm": [
+    140.32,
+    44,
+    -27
+  ],
+  "caveat": "No physical clearance, shrinkage, fastener engagement, or thermal qualification."
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "XY projected outline only; guide mesh is not manufacturing CAD",
+  "reference": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\00-input\\dell-official-3d\\dell3525-basecover-body.stl",
+  "research": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\04-cad\\base_cover_research_226p2mm_v3.stl",
+  "pixels_per_mm": 3.0,
+  "iou": 0.992766,
+  "dell_only_area_mm2": 156.33,
+  "v3_only_area_mm2": 423.78,
+  "max_dell_only_depth_mm": 3.0,
+  "max_v3_only_depth_mm": 6.0,
+  "max_dell_only_xy_mm": [
+    0.0,
+    143.33
+  ],
+  "max_v3_only_xy_mm": [
+    35.0,
+    5.67
+  ]
+}

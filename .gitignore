@@ -20,3 +20,16 @@ venv/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Device photos and photo-derived measurements remain private on this computer.
+/00-input/photos/
+/00-input/dell-official-3d/hinge-cable-layout.png
+/00-input/dell-official-3d/rect-05-interior-dellframe.png
+/00-input/dell-official-3d/render-ext.png
+/00-input/dell-official-3d/render-int.png
+/02-measure/confirm-exterior-annotated.png
+/02-measure/confirm-interior-annotated.png
+/02-measure/rect-05-interior-mm.png
+/02-measure/rect-06-exterior-mm.png
+/02-measure/virtual-scan/LAYOUT-base-cover-interior.png
+/02-measure/virtual-scan/p05-check.png

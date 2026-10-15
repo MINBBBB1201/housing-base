@@ -1,0 +1,106 @@
+[
+  {
+    "file": "MJF_B12_external_body.stl",
+    "bytes": 2234660,
+    "sha256": "890673f6c52c916a8d5de44850c0123a53894e059532ca6c51350ff1b80ee9d7",
+    "triangles": 12574,
+    "unique_vertices": 6187,
+    "edge_degree_counts": {
+      "2": 18861
+    },
+    "closed_two_manifold": true,
+    "min_mm": [
+      7.93457e-06,
+      0.0,
+      0.0
+    ],
+    "max_mm": [
+      355.32,
+      226.2,
+      27.2479
+    ],
+    "size_mm": [
+      355.32,
+      226.2,
+      27.2479
+    ]
+  },
+  {
+    "file": "MJF_B12_external_lid.stl",
+    "bytes": 547590,
+    "sha256": "56406717aeb99800d7f667f82301b5aacf3afeda1ec8607bb4fd84c1ee50139c",
+    "triangles": 3340,
+    "unique_vertices": 1650,
+    "edge_degree_counts": {
+      "2": 5010
+    },
+    "closed_two_manifold": true,
+    "min_mm": [
+      9.06001,
+      7.00001,
+      0.0
+    ],
+    "max_mm": [
+      346.26,
+      129.3,
+      10.0
+    ],
+    "size_mm": [
+      337.2,
+      122.3,
+      10.0
+    ]
+  },
+  {
+    "file": "FDM_B12_external_body.stl",
+    "bytes": 2136314,
+    "sha256": "02c6b55be7dc54773e15d9760cef0e164a9b9b464b932a7f449eaa0765d5d00f",
+    "triangles": 11970,
+    "unique_vertices": 5893,
+    "edge_degree_counts": {
+      "2": 17955
+    },
+    "closed_two_manifold": true,
+    "min_mm": [
+      7.93457e-06,
+      0.0,
+      0.0
+    ],
+    "max_mm": [
+      355.32,
+      226.2,
+      24.8464
+    ],
+    "size_mm": [
+      355.32,
+      226.2,
+      24.8464
+    ]
+  },
+  {
+    "file": "FDM_B12_external_lid.stl",
+    "bytes": 514809,
+    "sha256": "0549f80fc88e1516a190c251230c3a71237c25787232cdad8881de88b97ac84f",
+    "triangles": 3132,
+    "unique_vertices": 1546,
+    "edge_degree_counts": {
+      "2": 4698
+    },
+    "closed_two_manifold": true,
+    "min_mm": [
+      10.26,
+      8.2,
+      0.0
+    ],
+    "max_mm": [
+      345.06,
+      129.0,
+      5.0
+    ],
+    "size_mm": [
+      334.8,
+      120.8,
+      5.0
+    ]
+  }
+]

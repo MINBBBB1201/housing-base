@@ -1,0 +1,11 @@
+{
+  "name": "dell3525-3d-extract",
+  "private": true,
+  "description": "Decode Dell Inspiron 3525 3D-guide glTF (Draco + Needle progressive LOD0) to mm STL",
+  "dependencies": {
+    "@gltf-transform/core": "^4.5.0",
+    "@gltf-transform/extensions": "^4.5.0",
+    "@gltf-transform/functions": "^4.5.0",
+    "draco3dgltf": "^1.5.7"
+  }
+}

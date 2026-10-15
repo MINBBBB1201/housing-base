@@ -1,0 +1,10 @@
+# Keep CAD and media assets byte-for-byte and omit generated mesh diffs.
+*.stl binary
+*.glb binary
+*.3mf binary
+*.zip binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary

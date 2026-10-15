@@ -1,0 +1,488 @@
+{
+ "zref_dell": 10.06,
+ "baseline_oem": {
+  "Ins_15_3525_Palmrest_GP": {
+   "samples": 1123812,
+   "inside": 203,
+   "by_region": {
+    "interior": {
+     "n": 203,
+     "max_depth_mm": 0.68,
+     "xy_box": [
+      6.8,
+      215.3,
+      348.3,
+      220.6
+     ]
+    }
+   }
+  },
+  "Ins_15_3525_Battery_3cell_GP": {
+   "samples": 161165,
+   "inside": 59558,
+   "by_region": {
+    "interior": {
+     "n": 59558,
+     "max_depth_mm": 0.09,
+     "xy_box": [
+      22.2,
+      128.9,
+      228.6,
+      202.6
+     ]
+    }
+   }
+  },
+  "Ins_15_3525__Battery_Cable_GP": {
+   "samples": 7613,
+   "inside": 0
+  },
+  "Ins_15_3525_Systemboard_GP": {
+   "samples": 244466,
+   "inside": 10445,
+   "by_region": {
+    "left wall": {
+     "n": 266,
+     "max_depth_mm": 0.63,
+     "xy_box": [
+      -0.2,
+      28.0,
+      2.3,
+      110.4
+     ]
+    },
+    "interior": {
+     "n": 10179,
+     "max_depth_mm": 1.44,
+     "xy_box": [
+      26.6,
+      58.7,
+      218.9,
+      112.2
+     ]
+    }
+   }
+  },
+  "Ins_15_3525_Fan_GP": {
+   "samples": 73875,
+   "inside": 0
+  },
+  "Ins_15_3525_Heatsnk_UMA_GP": {
+   "samples": 49533,
+   "inside": 15306,
+   "by_region": {
+    "interior": {
+     "n": 14522,
+     "max_depth_mm": 1.78,
+     "xy_box": [
+      86.5,
+      4.0,
+      286.5,
+      57.0
+     ]
+    },
+    "clip tip": {
+     "n": 138,
+     "max_depth_mm": 0.75,
+     "xy_box": [
+      225.2,
+      2.0,
+      283.7,
+      4.0
+     ]
+    },
+    "rear wall": {
+     "n": 646,
+     "max_depth_mm": 0.76,
+     "xy_box": [
+      207.9,
+      2.0,
+      281.9,
+      4.0
+     ]
+    }
+   }
+  },
+  "Ins_15_3525_Speaker_GP": {
+   "samples": 118622,
+   "inside": 519,
+   "by_region": {
+    "right wall": {
+     "n": 1,
+     "max_depth_mm": 0.02,
+     "xy_box": [
+      351.8,
+      174.5,
+      351.8,
+      174.5
+     ]
+    },
+    "interior": {
+     "n": 111,
+     "max_depth_mm": 0.15,
+     "xy_box": [
+      71.4,
+      219.3,
+      320.9,
+      219.9
+     ]
+    },
+    "front wall": {
+     "n": 321,
+     "max_depth_mm": 0.65,
+     "xy_box": [
+      75.4,
+      223.8,
+      203.2,
+      225.1
+     ]
+    },
+    "clip tip": {
+     "n": 86,
+     "max_depth_mm": 0.61,
+     "xy_box": [
+      87.8,
+      223.8,
+      195.2,
+      225.0
+     ]
+    }
+   }
+  },
+  "Ins_15_3525_SSD_GP": {
+   "samples": 72336,
+   "inside": 13548,
+   "by_region": {
+    "interior": {
+     "n": 13548,
+     "max_depth_mm": 0.21,
+     "xy_box": [
+      220.2,
+      88.9,
+      296.4,
+      112.6
+     ]
+    }
+   }
+  },
+  "Ins_15_3525_WLAN_GP": {
+   "samples": 8046,
+   "inside": 320,
+   "by_region": {
+    "interior": {
+     "n": 320,
+     "max_depth_mm": 0.08,
+     "xy_box": [
+      178.2,
+      89.1,
+      200.5,
+      93.2
+     ]
+    }
+   }
+  },
+  "Ins_15_3525_Memory_Module_GP": {
+   "samples": 72404,
+   "inside": 0
+  },
+  "Ins_15_3525_IO_Board_GP": {
+   "samples": 34821,
+   "inside": 0
+  },
+  "Ins_15_3525_Power_Adapter_Port_GP": {
+   "samples": 9914,
+   "inside": 0
+  },
+  "Ins_15_3525_PowerButtonfbx_GP": {
+   "samples": 12508,
+   "inside": 0
+  },
+  "Ins_15_3525_Touchpad_GP": {
+   "samples": 171429,
+   "inside": 0
+  },
+  "Ins_15_3525_HDD_GP": {
+   "samples": 187586,
+   "inside": 18577,
+   "by_region": {
+    "interior": {
+     "n": 18577,
+     "max_depth_mm": 1.0,
+     "xy_box": [
+      173.3,
+      115.6,
+      332.8,
+      216.3
+     ]
+    }
+   }
+  },
+  "Inspiron_3525_Display_Right_Hinges": {
+   "samples": 21716,
+   "inside": 67,
+   "by_region": {
+    "interior": {
+     "n": 64,
+     "max_depth_mm": 0.19,
+     "xy_box": [
+      5.1,
+      4.1,
+      28.1,
+      15.8
+     ]
+    },
+    "rear wall": {
+     "n": 3,
+     "max_depth_mm": 0.02,
+     "xy_box": [
+      25.2,
+      3.7,
+      26.9,
+      3.7
+     ]
+    }
+   }
+  },
+  "Inspiron_3525_Display_Left_Hinges": {
+   "samples": 17105,
+   "inside": 15,
+   "by_region": {
+    "interior": {
+     "n": 14,
+     "max_depth_mm": 0.07,
+     "xy_box": [
+      326.8,
+      4.1,
+      329.9,
+      5.2
+     ]
+    },
+    "rear wall": {
+     "n": 1,
+     "max_depth_mm": 0.02,
+     "xy_box": [
+      327.9,
+      3.8,
+      327.9,
+      3.8
+     ]
+    }
+   }
+  },
+  "Inspiron_3525_Display_Cable": {
+   "samples": 10726,
+   "inside": 729,
+   "by_region": {
+    "interior": {
+     "n": 678,
+     "max_depth_mm": 0.74,
+     "xy_box": [
+      63.8,
+      4.0,
+      95.3,
+      6.8
+     ]
+    },
+    "rear wall": {
+     "n": 51,
+     "max_depth_mm": 0.32,
+     "xy_box": [
+      63.8,
+      3.6,
+      66.4,
+      4.0
+     ]
+    }
+   }
+  },
+  "Inspiron_3525_Display_WLAN_Cable": {
+   "samples": 16305,
+   "inside": 0
+  },
+  "Ins_15_3525_Display_Assembly_GP": {
+   "samples": 1570140,
+   "inside": 799,
+   "by_region": {
+    "interior": {
+     "n": 739,
+     "max_depth_mm": 0.73,
+     "xy_box": [
+      5.1,
+      4.0,
+      328.5,
+      15.9
+     ]
+    },
+    "rear wall": {
+     "n": 60,
+     "max_depth_mm": 0.32,
+     "xy_box": [
+      24.3,
+      3.6,
+      329.0,
+      4.0
+     ]
+    }
+   }
+  }
+ },
+ "ours": {
+  "Ins_15_3525_Palmrest_GP": {
+   "samples": 1123812,
+   "inside": 487,
+   "by_region": {
+    "left wall": {
+     "n": 45,
+     "max_depth_mm": 0.37,
+     "xy_box": [
+      -0.2,
+      6.1,
+      -0.0,
+      26.0
+     ]
+    },
+    "rear wall": {
+     "n": 215,
+     "max_depth_mm": 0.07,
+     "xy_box": [
+      6.1,
+      -0.2,
+      347.7,
+      -0.0
+     ]
+    },
+    "clip tip": {
+     "n": 213,
+     "max_depth_mm": 1.39,
+     "xy_box": [
+      18.1,
+      -0.2,
+      284.4,
+      224.2
+     ]
+    },
+    "front wall": {
+     "n": 14,
+     "max_depth_mm": 0.38,
+     "xy_box": [
+      0.5,
+      222.6,
+      354.7,
+      224.7
+     ]
+    }
+   }
+  },
+  "Ins_15_3525_Battery_3cell_GP": {
+   "samples": 161165,
+   "inside": 0
+  },
+  "Ins_15_3525__Battery_Cable_GP": {
+   "samples": 7613,
+   "inside": 0
+  },
+  "Ins_15_3525_Systemboard_GP": {
+   "samples": 244466,
+   "inside": 229,
+   "by_region": {
+    "left wall": {
+     "n": 229,
+     "max_depth_mm": 0.43,
+     "xy_box": [
+      0.1,
+      28.5,
+      1.8,
+      109.8
+     ]
+    }
+   }
+  },
+  "Ins_15_3525_Fan_GP": {
+   "samples": 73875,
+   "inside": 0
+  },
+  "Ins_15_3525_Heatsnk_UMA_GP": {
+   "samples": 49533,
+   "inside": 0
+  },
+  "Ins_15_3525_Speaker_GP": {
+   "samples": 118622,
+   "inside": 149,
+   "by_region": {
+    "front wall": {
+     "n": 118,
+     "max_depth_mm": 0.31,
+     "xy_box": [
+      80.7,
+      224.3,
+      198.3,
+      224.9
+     ]
+    },
+    "clip tip": {
+     "n": 31,
+     "max_depth_mm": 0.29,
+     "xy_box": [
+      88.1,
+      224.3,
+      195.1,
+      224.8
+     ]
+    }
+   }
+  },
+  "Ins_15_3525_SSD_GP": {
+   "samples": 72336,
+   "inside": 0
+  },
+  "Ins_15_3525_WLAN_GP": {
+   "samples": 8046,
+   "inside": 0
+  },
+  "Ins_15_3525_Memory_Module_GP": {
+   "samples": 72404,
+   "inside": 0
+  },
+  "Ins_15_3525_IO_Board_GP": {
+   "samples": 34821,
+   "inside": 0
+  },
+  "Ins_15_3525_Power_Adapter_Port_GP": {
+   "samples": 9914,
+   "inside": 0
+  },
+  "Ins_15_3525_PowerButtonfbx_GP": {
+   "samples": 12508,
+   "inside": 0
+  },
+  "Ins_15_3525_Touchpad_GP": {
+   "samples": 171429,
+   "inside": 0
+  },
+  "Ins_15_3525_HDD_GP": {
+   "samples": 187586,
+   "inside": 0
+  },
+  "Inspiron_3525_Display_Right_Hinges": {
+   "samples": 21716,
+   "inside": 0
+  },
+  "Inspiron_3525_Display_Left_Hinges": {
+   "samples": 17105,
+   "inside": 0
+  },
+  "Inspiron_3525_Display_Cable": {
+   "samples": 10726,
+   "inside": 0
+  },
+  "Inspiron_3525_Display_WLAN_Cable": {
+   "samples": 16305,
+   "inside": 0
+  },
+  "Ins_15_3525_Display_Assembly_GP": {
+   "samples": 1570140,
+   "inside": 0
+  }
+ },
+ "body": "base_cover_research_226p2mm_v9_body.stl"
+}

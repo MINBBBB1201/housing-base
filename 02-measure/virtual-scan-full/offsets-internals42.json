@@ -1,0 +1,249 @@
+{
+ "Ins_15_3525_Battery_3cell_GP": {
+  "visible_px": 428368,
+  "chamfer_mm_at_0": 0.78,
+  "chamfer_mm_best": 0.48,
+  "shift_mm_image_right_down": [
+   3.2,
+   -1.6
+  ],
+  "shift_mm_physical_XY": [
+   -3.2,
+   1.6
+  ]
+ },
+ "Ins_15_3525_Display_Assembly_GP": {
+  "visible_px": 102558,
+  "chamfer_mm_at_0": 0.36,
+  "chamfer_mm_best": 0.35,
+  "shift_mm_image_right_down": [
+   -0.6,
+   0.6
+  ],
+  "shift_mm_physical_XY": [
+   0.6,
+   -0.6
+  ]
+ },
+ "Ins_15_3525_Fan_GP": {
+  "visible_px": 108933,
+  "chamfer_mm_at_0": 0.58,
+  "chamfer_mm_best": 0.23,
+  "shift_mm_image_right_down": [
+   1.4,
+   -2.0
+  ],
+  "shift_mm_physical_XY": [
+   -1.4,
+   2.0
+  ]
+ },
+ "Ins_15_3525_Heatsnk_UMA_GP": {
+  "visible_px": 89650,
+  "chamfer_mm_at_0": 0.81,
+  "chamfer_mm_best": 0.53,
+  "shift_mm_image_right_down": [
+   5.2,
+   -1.0
+  ],
+  "shift_mm_physical_XY": [
+   -5.2,
+   1.0
+  ]
+ },
+ "Ins_15_3525_IO_Board_GP": {
+  "visible_px": 53497,
+  "chamfer_mm_at_0": 0.59,
+  "chamfer_mm_best": 0.32,
+  "shift_mm_image_right_down": [
+   4.6,
+   1.6
+  ],
+  "shift_mm_physical_XY": [
+   -4.6,
+   -1.6
+  ]
+ },
+ "Ins_15_3525_Memory_Module_GP": {
+  "visible_px": 92336,
+  "chamfer_mm_at_0": 1.72,
+  "chamfer_mm_best": 1.41,
+  "shift_mm_image_right_down": [
+   3.6,
+   -3.0
+  ],
+  "shift_mm_physical_XY": [
+   -3.6,
+   3.0
+  ]
+ },
+ "Ins_15_3525_Palmrest_GP": {
+  "visible_px": 648332,
+  "chamfer_mm_at_0": 0.63,
+  "chamfer_mm_best": 0.53,
+  "shift_mm_image_right_down": [
+   0.6,
+   -1.6
+  ],
+  "shift_mm_physical_XY": [
+   -0.6,
+   1.6
+  ]
+ },
+ "Ins_15_3525_PowerButtonfbx_GP": {
+  "visible_px": 9112,
+  "chamfer_mm_at_0": 0.5,
+  "chamfer_mm_best": 0.37,
+  "shift_mm_image_right_down": [
+   5.0,
+   -1.6
+  ],
+  "shift_mm_physical_XY": [
+   -5.0,
+   1.6
+  ]
+ },
+ "Ins_15_3525_Power_Adapter_Port_GP": {
+  "visible_px": 5085,
+  "chamfer_mm_at_0": 0.35,
+  "chamfer_mm_best": 0.32,
+  "shift_mm_image_right_down": [
+   -0.4,
+   -0.4
+  ],
+  "shift_mm_physical_XY": [
+   0.4,
+   0.4
+  ]
+ },
+ "Ins_15_3525_SSD_GP": {
+  "visible_px": 48624,
+  "chamfer_mm_at_0": 0.61,
+  "chamfer_mm_best": 0.2,
+  "shift_mm_image_right_down": [
+   0.8,
+   -2.2
+  ],
+  "shift_mm_physical_XY": [
+   -0.8,
+   2.2
+  ]
+ },
+ "Ins_15_3525_Speaker_GP": {
+  "visible_px": 99864,
+  "chamfer_mm_at_0": 0.88,
+  "chamfer_mm_best": 0.65,
+  "shift_mm_image_right_down": [
+   0.2,
+   -3.4
+  ],
+  "shift_mm_physical_XY": [
+   -0.2,
+   3.4
+  ]
+ },
+ "Ins_15_3525_Systemboard_GP": {
+  "visible_px": 350818,
+  "chamfer_mm_at_0": 0.83,
+  "chamfer_mm_best": 0.71,
+  "shift_mm_image_right_down": [
+   -4.4,
+   -4.4
+  ],
+  "shift_mm_physical_XY": [
+   4.4,
+   4.4
+  ]
+ },
+ "Ins_15_3525_Touchpad_GP": {
+  "visible_px": 23608,
+  "chamfer_mm_at_0": 0.67,
+  "chamfer_mm_best": 0.29,
+  "shift_mm_image_right_down": [
+   -0.2,
+   -4.2
+  ],
+  "shift_mm_physical_XY": [
+   0.2,
+   4.2
+  ]
+ },
+ "Ins_15_3525_WLAN_GP": {
+  "visible_px": 15160,
+  "chamfer_mm_at_0": 0.4,
+  "chamfer_mm_best": 0.19,
+  "shift_mm_image_right_down": [
+   0.6,
+   6.4
+  ],
+  "shift_mm_physical_XY": [
+   -0.6,
+   -6.4
+  ]
+ },
+ "Ins_15_3525__Battery_Cable_GP": {
+  "visible_px": 5240,
+  "chamfer_mm_at_0": 0.54,
+  "chamfer_mm_best": 0.43,
+  "shift_mm_image_right_down": [
+   3.2,
+   -1.4
+  ],
+  "shift_mm_physical_XY": [
+   -3.2,
+   1.4
+  ]
+ },
+ "Inspiron_3525_Display_Cable": {
+  "visible_px": 3670,
+  "chamfer_mm_at_0": 0.48,
+  "chamfer_mm_best": 0.33,
+  "shift_mm_image_right_down": [
+   -5.6,
+   3.4
+  ],
+  "shift_mm_physical_XY": [
+   5.6,
+   -3.4
+  ]
+ },
+ "Inspiron_3525_Display_Left_Hinges": {
+  "visible_px": 7666,
+  "chamfer_mm_at_0": 0.3,
+  "chamfer_mm_best": 0.26,
+  "shift_mm_image_right_down": [
+   2.2,
+   -1.4
+  ],
+  "shift_mm_physical_XY": [
+   -2.2,
+   1.4
+  ]
+ },
+ "Inspiron_3525_Display_Right_Hinges": {
+  "visible_px": 8491,
+  "chamfer_mm_at_0": 0.38,
+  "chamfer_mm_best": 0.29,
+  "shift_mm_image_right_down": [
+   -0.6,
+   -1.2
+  ],
+  "shift_mm_physical_XY": [
+   0.6,
+   1.2
+  ]
+ },
+ "Inspiron_3525_Display_WLAN_Cable": {
+  "visible_px": 8018,
+  "chamfer_mm_at_0": 0.31,
+  "chamfer_mm_best": 0.3,
+  "shift_mm_image_right_down": [
+   1.2,
+   -1.0
+  ],
+  "shift_mm_physical_XY": [
+   -1.2,
+   1.0
+  ]
+ }
+}
