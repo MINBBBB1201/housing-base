@@ -1,0 +1,400 @@
+{
+  "scope": "individual best-case axis-aligned box screening; no connectors, mounts, cable bend, electrical validation, or simultaneous placement",
+  "coordinate": "local y=0 is wedge rear; boxes placed at local y=0 even though real cavity starts later (optimistic)",
+  "c03_envelope_mm": [
+    340,
+    215,
+    20
+  ],
+  "screw_axis_geometry_mm": {
+    "left_right_side_axes_span": 337.3,
+    "minimum_pod_width_for_full_7mm_driver_wells": 344.3,
+    "minimum_pod_width_for_full_4p6mm_counterbores": 341.9,
+    "interpretation": "both exceed fixed 340-mm pod width; local edge scallops or a different access strategy are required"
+  },
+  "sloped_internal_height_mm": {
+    "c03_ideal": "15-16*y/215",
+    "research_cad": "13-16*y/215"
+  },
+  "components": [
+    {
+      "name": "HDMI splitter: Waveshare 1x4",
+      "width": 83.69,
+      "depth": 57.4,
+      "height": 13.98,
+      "extent_note": "cased body; HDMI and power plugs excluded",
+      "source": "https://www.waveshare.com/img/devkit/accBoard/HDMI-SPLITTER-1IN-4OUT/HDMI-SPLITTER-1IN-4OUT-details-size.jpg",
+      "c03_ideal": {
+        "width_mm": 83.69,
+        "depth_mm": 57.4,
+        "height_mm": 13.98,
+        "best_case_far_edge_clearance_mm": 10.728,
+        "best_case_min_height_margin_mm": -3.252,
+        "ideal_roof_intrusion_mm3": 5945.2,
+        "status": "fails individual height screen"
+      },
+      "research_cad": {
+        "width_mm": 83.69,
+        "depth_mm": 57.4,
+        "height_mm": 13.98,
+        "best_case_far_edge_clearance_mm": 8.728,
+        "best_case_min_height_margin_mm": -5.252,
+        "ideal_roof_intrusion_mm3": 14967.8,
+        "status": "fails individual height screen"
+      }
+    },
+    {
+      "name": "UVC: Waveshare USB3 adapter",
+      "width": 65.95,
+      "depth": 25.3,
+      "height": 12.65,
+      "extent_note": "USB-A male plug included; HDMI and host adapters excluded",
+      "source": "https://www.waveshare.com/img/devkit/accBoard/HDMI-to-USB-Adapter/HDMI-to-USB3.0-Adapter-details-size.jpg",
+      "c03_ideal": {
+        "width_mm": 65.95,
+        "depth_mm": 25.3,
+        "height_mm": 12.65,
+        "best_case_far_edge_clearance_mm": 13.117,
+        "best_case_min_height_margin_mm": 0.467,
+        "ideal_roof_intrusion_mm3": 0.0,
+        "status": "height only: not an assembly pass"
+      },
+      "research_cad": {
+        "width_mm": 65.95,
+        "depth_mm": 25.3,
+        "height_mm": 12.65,
+        "best_case_far_edge_clearance_mm": 11.117,
+        "best_case_min_height_margin_mm": -1.533,
+        "ideal_roof_intrusion_mm3": 1041.0,
+        "status": "fails individual height screen"
+      }
+    },
+    {
+      "name": "LCD: VSLCD VS-RTD2556HM-V1",
+      "width": 82.0,
+      "depth": 60.0,
+      "height": 5.0,
+      "extent_note": "bare PCB only; connector/cable/OSD assembly excluded",
+      "source": "https://www.vslcd.com/D000079-30Pin-EDP-Micro-Lcd-Driver-Board.html",
+      "c03_ideal": {
+        "width_mm": 82.0,
+        "depth_mm": 60.0,
+        "height_mm": 5.0,
+        "best_case_far_edge_clearance_mm": 10.535,
+        "best_case_min_height_margin_mm": 5.535,
+        "ideal_roof_intrusion_mm3": 0.0,
+        "status": "height only: not an assembly pass"
+      },
+      "research_cad": {
+        "width_mm": 82.0,
+        "depth_mm": 60.0,
+        "height_mm": 5.0,
+        "best_case_far_edge_clearance_mm": 8.535,
+        "best_case_min_height_margin_mm": 3.535,
+        "ideal_roof_intrusion_mm3": 0.0,
+        "status": "height only: not an assembly pass"
+      }
+    },
+    {
+      "name": "eDP RX: S.EDP-HDMI-4K2K.V1.2",
+      "width": 43.03,
+      "depth": 57.05,
+      "height": null,
+      "extent_note": "PCB outline from mechanical drawing; assembled Z unknown",
+      "source": "https://wiki.geekworm.com/images/9/9d/S.EDP-HDMI-4K2K.V1.2-Specifications.pdf",
+      "c03_ideal": {
+        "status": "indeterminate: assembled dimension absent"
+      },
+      "research_cad": {
+        "status": "indeterminate: assembled dimension absent"
+      }
+    },
+    {
+      "name": "Host: Raspberry Pi Zero 2 W",
+      "width": 65.0,
+      "depth": 30.0,
+      "height": null,
+      "extent_note": "PCB outline only; header/USB/power/SD assembled Z unknown",
+      "source": "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/",
+      "c03_ideal": {
+        "status": "indeterminate: assembled dimension absent"
+      },
+      "research_cad": {
+        "status": "indeterminate: assembled dimension absent"
+      }
+    },
+    {
+      "name": "GPIO board: prototype-v4",
+      "width": 40.0,
+      "depth": 35.0,
+      "height": null,
+      "extent_note": "project PCB outline only; LED/switch/header assembled Z unknown",
+      "source": "../../../prototype-v4/hardware/gpio-pcb/README.md",
+      "c03_ideal": {
+        "status": "indeterminate: assembled dimension absent"
+      },
+      "research_cad": {
+        "status": "indeterminate: assembled dimension absent"
+      }
+    },
+    {
+      "name": "External power/regulation and wiring",
+      "width": null,
+      "depth": null,
+      "height": null,
+      "extent_note": "SKU, enclosure, cable exits, strain relief, heat unknown",
+      "source": "../../../prototype-v4/hardware/INTERFACE-DESIGN.md",
+      "c03_ideal": {
+        "status": "indeterminate: assembled dimension absent"
+      },
+      "research_cad": {
+        "status": "indeterminate: assembled dimension absent"
+      }
+    }
+  ],
+  "screened_splitter_alternatives_not_selected": [
+    {
+      "name": "HDMI splitter: Goobay/Wentronic 58480 1x2",
+      "width": 65.0,
+      "depth": 64.8,
+      "height": 7.45,
+      "extent_note": "metal cased body only; 3 HDMI plugs and micro-USB power excluded",
+      "source": "https://www.wentronic.com/en/hdmi-splitter-1-to-2-58480",
+      "c03_ideal": {
+        "width_mm": 65.0,
+        "depth_mm": 64.8,
+        "height_mm": 7.45,
+        "best_case_far_edge_clearance_mm": 10.178,
+        "best_case_min_height_margin_mm": 2.728,
+        "ideal_roof_intrusion_mm3": 0.0,
+        "status": "height only: not an assembly pass"
+      },
+      "research_cad": {
+        "width_mm": 65.0,
+        "depth_mm": 64.8,
+        "height_mm": 7.45,
+        "best_case_far_edge_clearance_mm": 8.178,
+        "best_case_min_height_margin_mm": 0.728,
+        "ideal_roof_intrusion_mm3": 0.0,
+        "status": "height only: not an assembly pass"
+      }
+    },
+    {
+      "name": "HDMI splitter: DIGITUS DS-45322 1x2",
+      "width": 83.0,
+      "depth": 40.0,
+      "height": 9.0,
+      "extent_note": "metal cased body only; 3 HDMI plugs and micro-USB power excluded",
+      "source": "https://products.digitus.com/AV-medijska-tehnologija/AV-razdjelnik/Ultra-Slim-HDMI-Splitter-1x2-4K-60-Hz.html",
+      "c03_ideal": {
+        "width_mm": 83.0,
+        "depth_mm": 40.0,
+        "height_mm": 9.0,
+        "best_case_far_edge_clearance_mm": 12.023,
+        "best_case_min_height_margin_mm": 3.023,
+        "ideal_roof_intrusion_mm3": 0.0,
+        "status": "height only: not an assembly pass"
+      },
+      "research_cad": {
+        "width_mm": 83.0,
+        "depth_mm": 40.0,
+        "height_mm": 9.0,
+        "best_case_far_edge_clearance_mm": 10.023,
+        "best_case_min_height_margin_mm": 1.023,
+        "ideal_roof_intrusion_mm3": 0.0,
+        "status": "height only: not an assembly pass"
+      }
+    },
+    {
+      "name": "HDMI splitter: Erard 7970 1x2",
+      "width": 84.0,
+      "depth": 45.0,
+      "height": 15.0,
+      "extent_note": "cased body; HDMI/power plugs excluded",
+      "source": "https://www.erard.com/en/repartiteurs/891-repartiteur-hdmi-1-vers-2-full-hd.html",
+      "c03_ideal": {
+        "width_mm": 84.0,
+        "depth_mm": 45.0,
+        "height_mm": 15.0,
+        "best_case_far_edge_clearance_mm": 11.651,
+        "best_case_min_height_margin_mm": -3.349,
+        "ideal_roof_intrusion_mm3": 6329.3,
+        "status": "fails individual height screen"
+      },
+      "research_cad": {
+        "width_mm": 84.0,
+        "depth_mm": 45.0,
+        "height_mm": 15.0,
+        "best_case_far_edge_clearance_mm": 9.651,
+        "best_case_min_height_margin_mm": -5.349,
+        "ideal_roof_intrusion_mm3": 13889.3,
+        "status": "fails individual height screen"
+      }
+    },
+    {
+      "name": "HDMI splitter: PROTECH 2PET0102D-C 1x2",
+      "width": 65.5,
+      "depth": 55.5,
+      "height": 16.0,
+      "extent_note": "cased body; fixed HDMI pigtail/bend and power excluded",
+      "source": "https://www.protechet.com/products/2pet0102d-c",
+      "c03_ideal": {
+        "width_mm": 65.5,
+        "depth_mm": 55.5,
+        "height_mm": 16.0,
+        "best_case_far_edge_clearance_mm": 10.87,
+        "best_case_min_height_margin_mm": -5.13,
+        "ideal_roof_intrusion_mm3": 11142.5,
+        "status": "fails individual height screen"
+      },
+      "research_cad": {
+        "width_mm": 65.5,
+        "depth_mm": 55.5,
+        "height_mm": 16.0,
+        "best_case_far_edge_clearance_mm": 8.87,
+        "best_case_min_height_margin_mm": -7.13,
+        "ideal_roof_intrusion_mm3": 18413.0,
+        "status": "fails individual height screen"
+      }
+    }
+  ],
+  "v5_mesh_check": {
+    "mesh": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\04-cad\\base_cover_research_226p2mm_v5.stl",
+    "topology": {
+      "triangles": 8368,
+      "vertices": 4092,
+      "connected_components": 1,
+      "component_triangle_counts": [
+        8368
+      ],
+      "component_bounds": [
+        {
+          "triangles": 8368,
+          "min_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_mm": [
+            355.32,
+            226.2,
+            28.47
+          ]
+        }
+      ],
+      "nonmanifold_or_open_edges": 0,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        355.32,
+        226.2,
+        28.47
+      ]
+    },
+    "central_section_checks": [
+      {
+        "local_y_mm": 20.0,
+        "actual_z_surfaces_mm": [
+          3.0,
+          5.0,
+          16.51,
+          18.51
+        ],
+        "expected_z_surfaces_mm": [
+          3.0,
+          5.0,
+          16.51,
+          18.51
+        ],
+        "max_abs_error_mm": 0.002
+      },
+      {
+        "local_y_mm": 50.0,
+        "actual_z_surfaces_mm": [
+          3.0,
+          5.0,
+          14.28,
+          16.28
+        ],
+        "expected_z_surfaces_mm": [
+          3.0,
+          5.0,
+          14.28,
+          16.28
+        ],
+        "max_abs_error_mm": 0.001
+      },
+      {
+        "local_y_mm": 100.0,
+        "actual_z_surfaces_mm": [
+          3.0,
+          5.0,
+          10.56,
+          12.56
+        ],
+        "expected_z_surfaces_mm": [
+          3.0,
+          5.0,
+          10.56,
+          12.56
+        ],
+        "max_abs_error_mm": 0.002
+      },
+      {
+        "local_y_mm": 140.0,
+        "actual_z_surfaces_mm": [
+          3.0,
+          5.0,
+          7.58,
+          9.58
+        ],
+        "expected_z_surfaces_mm": [
+          3.0,
+          5.0,
+          7.58,
+          9.58
+        ],
+        "max_abs_error_mm": 0.001
+      }
+    ],
+    "scope": "four central vertical rays, not full volumetric or OEM mating inspection"
+  },
+  "thermal": {
+    "equation": "T(t)=Tamb+Q*Rtheta*(1-exp(-t/tau))",
+    "status": "illustrative sensitivity ONLY; Q, Rtheta, tau, and real temperature limits unmeasured",
+    "ambient_C_assumed": 25.0,
+    "duration_h": 3.0,
+    "tau_h_assumed": 1.0,
+    "heat_W_assumed": [
+      3.0,
+      6.0,
+      10.0
+    ],
+    "effective_Rtheta_K_per_W_assumed": [
+      2.0,
+      5.0,
+      10.0
+    ],
+    "temperatures_C": [
+      [
+        30.7,
+        39.3,
+        53.5
+      ],
+      [
+        36.4,
+        53.5,
+        82.0
+      ],
+      [
+        44.0,
+        72.5,
+        120.0
+      ]
+    ]
+  },
+  "verdict": "NO-GO with listed cased splitter and USB3 adapter; real assembly and thermal fitness indeterminate"
+}

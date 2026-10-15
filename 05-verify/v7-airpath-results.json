@@ -1,0 +1,98 @@
+{
+  "model": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\04-cad\\base_cover_research_226p2mm_v7_fan_duct.stl",
+  "scope": "sampled vertical rays and mesh topology only; no airflow rate, fit, or thermal prediction",
+  "topology": {
+    "triangles": 8316,
+    "vertices": 4068,
+    "connected_components": 1,
+    "component_triangle_counts": [
+      8316
+    ],
+    "component_bounds": [
+      {
+        "triangles": 8316,
+        "min_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max_mm": [
+          355.32,
+          226.2,
+          28.47
+        ]
+      }
+    ],
+    "nonmanifold_or_open_edges": 0,
+    "bounds_min_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds_max_mm": [
+      355.32,
+      226.2,
+      28.47
+    ]
+  },
+  "photo_fan_window_reference_mm": [
+    219.8,
+    276.5,
+    24.2,
+    54.4
+  ],
+  "design_fan_window_mm": [
+    223.0,
+    274.0,
+    25.0,
+    52.0
+  ],
+  "roof_open_area_mm2_nominal": 1377.0,
+  "floor_slot_free_area_mm2_nominal": 810.0,
+  "floor_to_roof_area_ratio_nominal": 0.588,
+  "rays": {
+    "through_bottom_slot_and_top_fan_opening": {
+      "x_mm": 251.5,
+      "y_mm": 38.0,
+      "z_surface_crossings_mm": []
+    },
+    "floor_bar_but_top_fan_opening": {
+      "x_mm": 250.0,
+      "y_mm": 38.0,
+      "z_surface_crossings_mm": [
+        3.0,
+        5.0
+      ]
+    },
+    "duct_wall": {
+      "x_mm": 220.0,
+      "y_mm": 38.0,
+      "z_surface_crossings_mm": [
+        3.0,
+        17.59
+      ]
+    },
+    "roof_outside_duct": {
+      "x_mm": 275.0,
+      "y_mm": 38.0,
+      "z_surface_crossings_mm": [
+        3.0,
+        5.0,
+        15.59,
+        17.59
+      ]
+    },
+    "unmodified_central_roof": {
+      "x_mm": 150.0,
+      "y_mm": 100.0,
+      "z_surface_crossings_mm": [
+        3.0,
+        5.0,
+        10.97,
+        12.97
+      ]
+    }
+  },
+  "geometric_screen_pass": true,
+  "qualification": "NO-GO for ordering: OEM mating, electronics packaging, airflow, temperature and strength not established"
+}

@@ -1,0 +1,13 @@
+{
+  "old_to_new": {
+    "samples": 14566,
+    "max_mm": 3.136735100034908e-07,
+    "p99_mm": 6.253322495066154e-12
+  },
+  "new_to_old": {
+    "samples": 14564,
+    "max_mm": 2.063841591561507e-06,
+    "p99_mm": 5.195830781512737e-12
+  },
+  "method": "vertex and face-centre nearest-surface samples outside cavity cut and on Dell-facing top; not full geometric proof"
+}

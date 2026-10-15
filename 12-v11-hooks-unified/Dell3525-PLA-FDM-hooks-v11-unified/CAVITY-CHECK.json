@@ -1,0 +1,164 @@
+{
+  "body_original": {
+    "file": "PLA_body.stl",
+    "sha256": "e9f202d3e6460e93c0dc3c8ab6b721fdaf1dbf7129ba7fd5637d8888005863f2",
+    "triangles": 14164,
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        -24.6
+      ],
+      [
+        355.32,
+        226.2,
+        27.248
+      ]
+    ],
+    "volume_mm3": 263748.15
+  },
+  "body_open": {
+    "file": "PLA_body_unified.stl",
+    "sha256": "a97519e3de5431b3a4579433db698cb71022f32be6801bc1733f28a0f61cdcb4",
+    "triangles": 13978,
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        -24.6
+      ],
+      [
+        355.32,
+        226.2,
+        27.248
+      ]
+    ],
+    "volume_mm3": 243618.21
+  },
+  "lid_original": {
+    "file": "PLA_lid.stl",
+    "sha256": "73edc4bce77d82cbe389c62419a436765c45b8be6ff5c0403b18d260a4f8e014",
+    "triangles": 3968,
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "bounds_mm": [
+      [
+        10.26,
+        44.6,
+        -14.0
+      ],
+      [
+        345.06,
+        160.6,
+        5.0
+      ]
+    ],
+    "volume_mm3": 78159.5
+  },
+  "lid_left": {
+    "file": "PLA_lid_unified.stl",
+    "sha256": "8b33bc08357cadcf3a40015961f4278e7b09bd6fb8f0432479bc3ddb17014bf3",
+    "triangles": 892,
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "bounds_mm": [
+      [
+        10.26,
+        44.6,
+        0.0
+      ],
+      [
+        143.12,
+        160.6,
+        5.0
+      ]
+    ],
+    "volume_mm3": 29851.6
+  },
+  "floor": {
+    "file": "PLA_floor.stl",
+    "sha256": "30236b6f68d9640b919613be1d7f4ea83da63abc645103b449e01f027a6cdf84",
+    "triangles": 3940,
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        -5.0
+      ],
+      [
+        210.0,
+        181.0,
+        7.5
+      ]
+    ],
+    "volume_mm3": 95845.69
+  },
+  "probe_points_mm": [
+    [
+      200.0,
+      180.0,
+      4.0
+    ],
+    [
+      200.0,
+      180.0,
+      6.8
+    ],
+    [
+      200.0,
+      100.0,
+      4.0
+    ],
+    [
+      100.0,
+      100.0,
+      4.0
+    ],
+    [
+      164.32,
+      108.0,
+      -13.0
+    ]
+  ],
+  "probe_occupancy": {
+    "body_original": [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    "body_open": [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    "lid_original": [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    "lid_left": [
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "method": "Prescribed 0.5 mm cantilever bending, 0.2 mm surface samples; ignores own undeformed hook volume and first 1.1 mm from root; checks other printed material. Not FEA or complete assembly path proof.",
+  "hooks": [
+    {
+      "id": 1,
+      "samples": 2752,
+      "fixed_body_penetration_samples_over_0p03mm": 0,
+      "worst_signed_distance_mm": -0.0
+    },
+    {
+      "id": 2,
+      "samples": 3660,
+      "fixed_body_penetration_samples_over_0p03mm": 0,
+      "worst_signed_distance_mm": -0.0
+    },
+    {
+      "id": 3,
+      "samples": 3619,
+      "fixed_body_penetration_samples_over_0p03mm": 0,
+      "worst_signed_distance_mm": -0.0
+    },
+    {
+      "id": 4,
+      "samples": 3619,
+      "fixed_body_penetration_samples_over_0p03mm": 0,
+      "worst_signed_distance_mm": -0.0
+    },
+    {
+      "id": 5,
+      "samples": 3502,
+      "fixed_body_penetration_samples_over_0p03mm": 0,
+      "worst_signed_distance_mm": -0.0
+    },
+    {
+      "id": 6,
+      "samples": 3839,
+      "fixed_body_penetration_samples_over_0p03mm": 0,
+      "worst_signed_distance_mm": -9.5367431640625e-07
+    },
+    {
+      "id": 7,
+      "samples": 3839,
+      "fixed_body_penetration_samples_over_0p03mm": 0,
+      "worst_signed_distance_mm": -9.5367431640625e-07
+    },
+    {
+      "id": 8,
+      "samples": 3839,
+      "fixed_body_penetration_samples_over_0p03mm": 0,
+      "worst_signed_distance_mm": -9.5367431640625e-07
+    },
+    {
+      "id": 9,
+      "samples": 3413,
+      "fixed_body_penetration_samples_over_0p03mm": 0,
+      "worst_signed_distance_mm": -5.104631371236529e-07
+    },
+    {
+      "id": 10,
+      "samples": 3328,
+      "fixed_body_penetration_samples_over_0p03mm": 0,
+      "worst_signed_distance_mm": -2.652381720628839e-07
+    },
+    {
+      "id": 11,
+      "samples": 3362,
+      "fixed_body_penetration_samples_over_0p03mm": 0,
+      "worst_signed_distance_mm": -1.7763568394002505e-15
+    },
+    {
+      "id": 12,
+      "samples": 3405,
+      "fixed_body_penetration_samples_over_0p03mm": 0,
+      "worst_signed_distance_mm": -8.461188064779703e-08
+    },
+    {
+      "id": 13,
+      "samples": 3382,
+      "fixed_body_penetration_samples_over_0p03mm": 0,
+      "worst_signed_distance_mm": -3.1699239668676695e-07
+    }
+  ]
+}

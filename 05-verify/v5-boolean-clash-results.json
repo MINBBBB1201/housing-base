@@ -1,0 +1,97 @@
+{
+  "scope": "selected optimistic box locations, no connectors/cables/tolerances",
+  "results": {
+    "splitter": {
+      "mesh": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\05-verify\\v5-clash-splitter.stl",
+      "volume_mm3": 10288.3,
+      "volume_cm3": 10.288,
+      "topology": {
+        "triangles": 136,
+        "vertices": 70,
+        "connected_components": 1,
+        "component_triangle_counts": [
+          136
+        ],
+        "component_bounds": [
+          {
+            "triangles": 136,
+            "min_mm": [
+              22.66,
+              5.61,
+              5.01
+            ],
+            "max_mm": [
+              106.35,
+              63.01,
+              18.99
+            ]
+          }
+        ],
+        "nonmanifold_or_open_edges": 0,
+        "bounds_min_mm": [
+          22.66,
+          5.61,
+          5.01
+        ],
+        "bounds_max_mm": [
+          106.35,
+          63.01,
+          18.99
+        ]
+      }
+    },
+    "uvc_usb3": {
+      "mesh": "C:\\Users\\mimin\\Desktop\\k\\eDP Capture\\prototype-v5\\housing-base\\05-verify\\v5-clash-uvc_usb3.stl",
+      "volume_mm3": 2806.7,
+      "volume_cm3": 2.807,
+      "topology": {
+        "triangles": 56,
+        "vertices": 32,
+        "connected_components": 2,
+        "component_triangle_counts": [
+          44,
+          12
+        ],
+        "component_bounds": [
+          {
+            "triangles": 44,
+            "min_mm": [
+              107.66,
+              8.14,
+              5.01
+            ],
+            "max_mm": [
+              173.61,
+              30.91,
+              17.66
+            ]
+          },
+          {
+            "triangles": 12,
+            "min_mm": [
+              107.66,
+              5.61,
+              5.01
+            ],
+            "max_mm": [
+              173.61,
+              7.6,
+              17.66
+            ]
+          }
+        ],
+        "nonmanifold_or_open_edges": 0,
+        "bounds_min_mm": [
+          107.66,
+          5.61,
+          5.01
+        ],
+        "bounds_max_mm": [
+          173.61,
+          30.91,
+          17.66
+        ]
+      }
+    }
+  }
+}
